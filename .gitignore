@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.__pyc
+.pytest_cache/
+
+# Virtual env
+.venv/
+
+# OS
+.DS_Store
+
+# Data (don't commit raw data)
+data/raw/
+data/processed/
+
+# Outputs
+reports/figures/
+reports/*.json
+reports/*.joblib
+reports/*.pkl
+
+# Jupyter
+.ipynb_checkpoints
